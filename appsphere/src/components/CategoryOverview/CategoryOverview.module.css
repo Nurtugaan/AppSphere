@@ -1,0 +1,221 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryBox{
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.categoryContent{
+    width: 1160px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin-top: 228px;
+}
+
+.categoryImg{
+    width: 504px;
+    height: 512.4px;
+    position: relative;
+    border-radius: 48px;
+    margin-right: 60px;
+}
+
+.categoryImg img{
+    width: 504px;
+    height: 512.4px;
+    border-radius: 48px;
+}
+
+.categoryInfo{
+    width: 625px;
+    height: 513px;
+}
+
+.categoryTitle{
+    font-family: "Ubuntu";
+    font-size: 48px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.categoryViewButton{
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #E4D9FF;
+    width: 129px;
+    height: 48px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.categoryInfoButtons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.categoryRating{
+    background-color: #333333CC;
+    width: 91px;
+    height: 48px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFEED;
+    margin-left: 10px;
+}
+
+.categoryRating img{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+.categorySubtitle{
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.categoryText{
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.categoryBasketButton{
+    width: 226px;
+    height: 55px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #E4D9FF;
+    cursor: pointer;
+}
+
+.categoryBuyButton{
+    width: 115px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid #333333;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.galleryBox{
+    width: 1160px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryTitle{
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.galleryImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:40px;
+    width: 1160px;
+}
+
+.galleryImages img{
+    width: 560px;
+    height: 312px;
+}
+
+.additionalInfoBox{
+    max-width: 1160px;
+    border-radius: 20px;
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E4D9FF;
+    padding-bottom: 100px;
+}
+
+.additionalInfoTitle{
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.additionalInfoContent{
+    display: flex;
+    margin-top: 40px;
+    width: 1160px;
+    gap: 116px;
+    margin-left: 100px;
+}
+
+.additionalInfoBox .info{
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.additionalInfoBox .title{
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.additionalInfoMore{
+    margin-right: auto;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.additionalInfoMore .report{
+    width: 300px;
+    height: 150px;
+}
+
+.additionalInfoMore .fromPublisher{
+    width: 231px;
+    height: 142px;
+    margin-left: 65px;
+}

@@ -1,0 +1,27 @@
+.authBox{
+    width: 660px;
+    padding: 30px;
+    background-color: #333333;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.authBox .title{
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+    color: #FFFEED;
+}
+
+.authButton{
+    width: 101%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #E4D9FF;
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}

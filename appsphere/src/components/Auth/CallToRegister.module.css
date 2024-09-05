@@ -1,0 +1,25 @@
+.mainBox{
+    width: 460px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E4D9FF;
+    border-radius: 20px;
+}
+
+.mainBox .title{
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+    width: 87%;
+}
+
+.mainBox .text{
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 20px;
+    width: 87%;
+}

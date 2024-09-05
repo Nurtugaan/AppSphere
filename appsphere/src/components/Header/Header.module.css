@@ -1,0 +1,38 @@
+.headerContent{
+    background-color: #333333;
+    height: 138px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    min-width: 1400px;
+    box-sizing: border-box;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.companyName{
+    font-family: Audiowide;
+    font-size: 32px;
+    font-weight: 400;
+    color: #E4D9FF;
+    line-height: 32px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 45px;
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}

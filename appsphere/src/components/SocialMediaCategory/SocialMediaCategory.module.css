@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Выровнять по горизонтали */
+    align-items: center;
+    position: relative;
+}
+
+.categoryBox{
+    width: 1400px;
+    margin-top: 198px;
+}
+
+.categoryBox .title{
+    font-family: "Ubuntu";
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.categoryBox .text{
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    width: 760px;
+    margin-left: 320px;
+    margin-top: 15px;
+}
+
+.categoryBox .cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 100px;
+    margin-top: 60px;
+}

@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.categoryPage{
+    width: 1400px;
+}
+
+.categoryBox{
+    margin-top: 198px;
+    width: 1160px;
+    margin-left: 120px;
+}
+
+.entertainmentBox{
+    border: none;
+    width: 1160px;
+    margin: 60px 120px 0 120px;
+}
+
+.title{
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.topFreeAppsBox{
+    width: 1160px;
+    margin: 60px 120px 0 120px;
+}
+
+.topFreeAppsBox .title{
+    margin-bottom: 45px;
+}
+
+.topFreeAppsBox .apps{
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectionBox{
+    background-color:  #333333;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    margin:60px 120px;
+    height: 340px;
+    padding-left: 60px;
+    position: relative;
+    width: auto;
+}
+
+.selectionBoxTitle{
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFEED;
+    margin-top: 60px;
+}
+
+.selectionBoxText{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    margin-top: 30px;
+    color: #FFFEED;
+    width: 540px;
+}
+
+.selectionBoxButton{
+    margin-top: 30px;
+    width: 303px;
+    height: 58px;
+    border-radius: 20px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #E4D9FF;
+    color:#333333;
+    font-size: 24px;
+    font-family: "Ubuntu";
+    font-weight: 500;
+    border: none;
+}
+
+.selectionBox img{
+    width: 255px;
+    height: 255px;
+    position: absolute;
+    right: 100px;
+    top: 10%;
+}
+
+.showMoreButton{
+    width: 240px;
+    height: 53px;top: 867px;
+    border-radius: 20px;
+    background-color: #E4D9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 460px;
+    cursor: pointer;
+    border: none;
+}
+
+.showMoreButton img{
+    width: 20px;
+    height: 20px;
+}

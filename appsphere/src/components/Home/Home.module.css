@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Выровнять по горизонтали */
+    align-items: center;
+    position: relative;
+}
+
+.homePage{
+    width: 1400px;
+}
+
+.secondScreen{
+    padding: 0;
+    margin: 198px 120px 30px;
+    height: 400px;
+    position: relative;
+    width: auto;
+    border: 1px solid white;
+}
+
+.callForRegister{
+    margin-top: 89px;
+    width: 600px;
+}
+
+.joinUs{
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.joinInfo{
+    margin:30px 0px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Ubuntu";
+}
+
+.secondScreen .registerButton{
+    width: 184px;
+    height: 56px;
+    border-radius: 100px;
+    border: none;
+    background-color:#E4D9FF;
+    font-size: 24px;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.secondScreenPhoto{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.secondScreenPhoto img{
+    width: 400px;
+    height: 400px;
+}
+
+.cardCatalog{
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+    width: auto;
+}
+
+.popularCategories{
+    font-size: 40px;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    text-align: center;
+}
+
+.group3{
+    background-color:  #333333;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    margin:60px 120px;
+    height: 348px;
+    padding-left: 60px;
+    position: relative;
+    width: auto;
+}
+
+.group3 .group3Title{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Ubuntu";
+    width: 740px;
+    color: #FFFEED;
+    margin-top: 60px;
+}
+
+.group3 .group3Text{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    margin-top: 30px;
+    color: #FFFEED;
+}
+
+.group3 .group3Button{
+    margin-top: 30px;
+    width: 303px;
+    height: 58px;
+    border-radius: 20px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #E4D9FF;
+    color:#333333;
+    font-size: 24px;
+    font-family: "Ubuntu";
+    font-weight: 500;
+}
+
+.group3 .group3Photo{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: -10%;
+}
+
+.group3 .group3Photo img{
+    width: 400px;
+    height: 400px;
+}
+
+.reviewsTitle{
+    font-size: 40px;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    text-align: center;
+}
+
+.entertainmentCards{
+    margin-top: 60px;
+}
